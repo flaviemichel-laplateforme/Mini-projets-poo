@@ -1,4 +1,5 @@
 <?php
+
 /**
  * 📊 PROJET 09 : STATIC & SELF
  * Concept : Propriétés et méthodes statiques (partagées)
@@ -56,7 +57,7 @@
 // ─────────────────────────────────────────────────────────────────────────
 //
 // 1. Affiche le nombre d'utilisateurs AVANT création
-//    (Utilisateur::getNombreUtilisateurs())
+//    (Utili$compteursateur::getNombreUtilisateurs())
 //
 // 2. Crée 3 utilisateurs : "Jean", "Marie", "Paul"
 //
@@ -80,4 +81,3 @@
 //
 // 🎯 Prochaine étape : Projet 10 - Namespaces (organisation du code)
 //
-?>
