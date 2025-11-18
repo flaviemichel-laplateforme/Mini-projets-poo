@@ -170,10 +170,6 @@ $arene = new Arene();
 echo "<h3>🎯 DEMI-FINALE</h3>";
 $gagnant1 = $arene->combat($conan, $gandalf);
 
-echo "<br>--- Le mage utilise son sort spécial ! ---<br>";
-if ($gandalf->getEstVivant()) {
-    $gandalf->lancerSort($conan);
-}
 
 echo "<br><h3>🎯 FINALE</h3>";
 $champion = $arene->combat($gagnant1, $legolas);
